@@ -1,0 +1,4 @@
+/home/qiao/MClient/build/CMakeFiles/edit_cache.dir
+/home/qiao/MClient/build/CMakeFiles/rebuild_cache.dir
+/home/qiao/MClient/build/CMakeFiles/MClient.dir
+/home/qiao/MClient/build/CMakeFiles/Cylinder.dir
