@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qiao/MClient/src/Cylinder.cxx" "/home/qiao/MClient/build/CMakeFiles/Cylinder.dir/Cylinder.cxx.o"
+  "/home/qiao/Client/src/Cylinder.cxx" "/home/qiao/Client/build/CMakeFiles/Cylinder.dir/Cylinder.cxx.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -87,7 +87,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/qiao/VTK-build/ThirdParty/glew"
   "/home/qiao/VTK/ThirdParty/glew"
   "/usr/local/include"
-  "/home/qiao/MClient/src/../include"
+  "/home/qiao/Client/src/../include"
   "/home/qiao/libwebrtc/include/webrtc"
   "/home/qiao/libwebrtc/webrtc/src/third_party/jsoncpp/source/include"
   "/home/qiao/libwebrtc/webrtc/src/third_party/libyuv/include"

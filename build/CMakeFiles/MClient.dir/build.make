@@ -43,10 +43,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiao/MClient/src
+CMAKE_SOURCE_DIR = /home/qiao/Client/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiao/MClient/build
+CMAKE_BINARY_DIR = /home/qiao/Client/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/MClient.dir/depend.make
@@ -58,69 +58,121 @@ include CMakeFiles/MClient.dir/progress.make
 include CMakeFiles/MClient.dir/flags.make
 
 CMakeFiles/MClient.dir/main.cc.o: CMakeFiles/MClient.dir/flags.make
-CMakeFiles/MClient.dir/main.cc.o: /home/qiao/MClient/src/main.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/MClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MClient.dir/main.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/main.cc.o -c /home/qiao/MClient/src/main.cc
+CMakeFiles/MClient.dir/main.cc.o: /home/qiao/Client/src/main.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/MClient.dir/main.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/main.cc.o -c /home/qiao/Client/src/main.cc
 
 CMakeFiles/MClient.dir/main.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/main.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/MClient/src/main.cc > CMakeFiles/MClient.dir/main.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/Client/src/main.cc > CMakeFiles/MClient.dir/main.cc.i
 
 CMakeFiles/MClient.dir/main.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/main.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/MClient/src/main.cc -o CMakeFiles/MClient.dir/main.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/Client/src/main.cc -o CMakeFiles/MClient.dir/main.cc.s
 
 CMakeFiles/MClient.dir/gtk_main_wnd.cc.o: CMakeFiles/MClient.dir/flags.make
-CMakeFiles/MClient.dir/gtk_main_wnd.cc.o: /home/qiao/MClient/src/gtk_main_wnd.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/MClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MClient.dir/gtk_main_wnd.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/gtk_main_wnd.cc.o -c /home/qiao/MClient/src/gtk_main_wnd.cc
+CMakeFiles/MClient.dir/gtk_main_wnd.cc.o: /home/qiao/Client/src/gtk_main_wnd.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/MClient.dir/gtk_main_wnd.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/gtk_main_wnd.cc.o -c /home/qiao/Client/src/gtk_main_wnd.cc
 
 CMakeFiles/MClient.dir/gtk_main_wnd.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/gtk_main_wnd.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/MClient/src/gtk_main_wnd.cc > CMakeFiles/MClient.dir/gtk_main_wnd.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/Client/src/gtk_main_wnd.cc > CMakeFiles/MClient.dir/gtk_main_wnd.cc.i
 
 CMakeFiles/MClient.dir/gtk_main_wnd.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/gtk_main_wnd.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/MClient/src/gtk_main_wnd.cc -o CMakeFiles/MClient.dir/gtk_main_wnd.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/Client/src/gtk_main_wnd.cc -o CMakeFiles/MClient.dir/gtk_main_wnd.cc.s
 
 CMakeFiles/MClient.dir/defaults.cc.o: CMakeFiles/MClient.dir/flags.make
-CMakeFiles/MClient.dir/defaults.cc.o: /home/qiao/MClient/src/defaults.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/MClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MClient.dir/defaults.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/defaults.cc.o -c /home/qiao/MClient/src/defaults.cc
+CMakeFiles/MClient.dir/defaults.cc.o: /home/qiao/Client/src/defaults.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/MClient.dir/defaults.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/defaults.cc.o -c /home/qiao/Client/src/defaults.cc
 
 CMakeFiles/MClient.dir/defaults.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/defaults.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/MClient/src/defaults.cc > CMakeFiles/MClient.dir/defaults.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/Client/src/defaults.cc > CMakeFiles/MClient.dir/defaults.cc.i
 
 CMakeFiles/MClient.dir/defaults.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/defaults.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/MClient/src/defaults.cc -o CMakeFiles/MClient.dir/defaults.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/Client/src/defaults.cc -o CMakeFiles/MClient.dir/defaults.cc.s
 
 CMakeFiles/MClient.dir/peer_connection_client.cc.o: CMakeFiles/MClient.dir/flags.make
-CMakeFiles/MClient.dir/peer_connection_client.cc.o: /home/qiao/MClient/src/peer_connection_client.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/MClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MClient.dir/peer_connection_client.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/peer_connection_client.cc.o -c /home/qiao/MClient/src/peer_connection_client.cc
+CMakeFiles/MClient.dir/peer_connection_client.cc.o: /home/qiao/Client/src/peer_connection_client.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/MClient.dir/peer_connection_client.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/peer_connection_client.cc.o -c /home/qiao/Client/src/peer_connection_client.cc
 
 CMakeFiles/MClient.dir/peer_connection_client.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/peer_connection_client.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/MClient/src/peer_connection_client.cc > CMakeFiles/MClient.dir/peer_connection_client.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/Client/src/peer_connection_client.cc > CMakeFiles/MClient.dir/peer_connection_client.cc.i
 
 CMakeFiles/MClient.dir/peer_connection_client.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/peer_connection_client.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/MClient/src/peer_connection_client.cc -o CMakeFiles/MClient.dir/peer_connection_client.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/Client/src/peer_connection_client.cc -o CMakeFiles/MClient.dir/peer_connection_client.cc.s
 
 CMakeFiles/MClient.dir/conductor.cc.o: CMakeFiles/MClient.dir/flags.make
-CMakeFiles/MClient.dir/conductor.cc.o: /home/qiao/MClient/src/conductor.cc
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/MClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MClient.dir/conductor.cc.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/conductor.cc.o -c /home/qiao/MClient/src/conductor.cc
+CMakeFiles/MClient.dir/conductor.cc.o: /home/qiao/Client/src/conductor.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/MClient.dir/conductor.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/conductor.cc.o -c /home/qiao/Client/src/conductor.cc
 
 CMakeFiles/MClient.dir/conductor.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/conductor.cc.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/MClient/src/conductor.cc > CMakeFiles/MClient.dir/conductor.cc.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/Client/src/conductor.cc > CMakeFiles/MClient.dir/conductor.cc.i
 
 CMakeFiles/MClient.dir/conductor.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/conductor.cc.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/MClient/src/conductor.cc -o CMakeFiles/MClient.dir/conductor.cc.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/Client/src/conductor.cc -o CMakeFiles/MClient.dir/conductor.cc.s
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o: CMakeFiles/MClient.dir/flags.make
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o: /home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o -c /home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc > CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o: CMakeFiles/MClient.dir/flags.make
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o: /home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o -c /home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc > CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o: CMakeFiles/MClient.dir/flags.make
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o: /home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o -c /home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc > CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o: CMakeFiles/MClient.dir/flags.make
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o: /home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o -c /home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc > CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i
+
+CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc -o CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s
 
 # Object files for target MClient
 MClient_OBJECTS = \
@@ -128,7 +180,11 @@ MClient_OBJECTS = \
 "CMakeFiles/MClient.dir/gtk_main_wnd.cc.o" \
 "CMakeFiles/MClient.dir/defaults.cc.o" \
 "CMakeFiles/MClient.dir/peer_connection_client.cc.o" \
-"CMakeFiles/MClient.dir/conductor.cc.o"
+"CMakeFiles/MClient.dir/conductor.cc.o" \
+"CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o" \
+"CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o" \
+"CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o" \
+"CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o"
 
 # External object files for target MClient
 MClient_EXTERNAL_OBJECTS =
@@ -138,15 +194,19 @@ MClient: CMakeFiles/MClient.dir/gtk_main_wnd.cc.o
 MClient: CMakeFiles/MClient.dir/defaults.cc.o
 MClient: CMakeFiles/MClient.dir/peer_connection_client.cc.o
 MClient: CMakeFiles/MClient.dir/conductor.cc.o
+MClient: CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o
+MClient: CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o
+MClient: CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o
+MClient: CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o
 MClient: CMakeFiles/MClient.dir/build.make
 MClient: /home/qiao/libwebrtc/lib/libwebrtc.a
 MClient: /usr/lib/x86_64-linux-gnu/libSM.so
 MClient: /usr/lib/x86_64-linux-gnu/libICE.so
 MClient: /usr/lib/x86_64-linux-gnu/libX11.so
 MClient: /usr/lib/x86_64-linux-gnu/libXext.so
-MClient: /usr/lib/x86_64-linux-gnu/libjsoncpp.so
+MClient: /home/qiao/libwebrtc/webrtc/src/build/linux/debian_jessie_amd64-sysroot/usr/lib/libjsoncpp.so
 MClient: CMakeFiles/MClient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qiao/MClient/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable MClient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/qiao/Client/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable MClient"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MClient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -159,6 +219,6 @@ CMakeFiles/MClient.dir/clean:
 .PHONY : CMakeFiles/MClient.dir/clean
 
 CMakeFiles/MClient.dir/depend:
-	cd /home/qiao/MClient/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qiao/MClient/src /home/qiao/MClient/src /home/qiao/MClient/build /home/qiao/MClient/build /home/qiao/MClient/build/CMakeFiles/MClient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qiao/Client/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qiao/Client/src /home/qiao/Client/src /home/qiao/Client/build /home/qiao/Client/build /home/qiao/Client/build/CMakeFiles/MClient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/MClient.dir/depend
 

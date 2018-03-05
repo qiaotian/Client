@@ -48,10 +48,10 @@ RM = /usr/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qiao/MClient/src
+CMAKE_SOURCE_DIR = /home/qiao/Client/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qiao/MClient/build
+CMAKE_BINARY_DIR = /home/qiao/Client/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiao/MClient/build/CMakeFiles /home/qiao/MClient/build/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiao/Client/build/CMakeFiles /home/qiao/Client/build/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiao/MClient/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/qiao/Client/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -244,6 +244,114 @@ gtk_main_wnd.cc.s:
 	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/gtk_main_wnd.cc.s
 .PHONY : gtk_main_wnd.cc.s
 
+home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.o: home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.o
+
+# target to build an object file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.i: home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.i
+
+# target to preprocess a source file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.i
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.s: home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.s
+
+# target to generate assembly for a file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.s
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/json.o: home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/json.o
+
+# target to build an object file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/json.i: home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/json.i
+
+# target to preprocess a source file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.i
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/json.s: home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/json.s
+
+# target to generate assembly for a file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.s
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.o: home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.o
+
+# target to build an object file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.i: home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.i
+
+# target to preprocess a source file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.i
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.s: home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.s
+
+# target to generate assembly for a file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.s
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.o: home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.o
+
+# target to build an object file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.i: home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.i
+
+# target to preprocess a source file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.i
+
+home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.s: home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s
+
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.s
+
+# target to generate assembly for a file
+home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s:
+	$(MAKE) -f CMakeFiles/MClient.dir/build.make CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s
+.PHONY : home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.s
+
 main.o: main.cc.o
 
 .PHONY : main.o
@@ -320,6 +428,18 @@ help:
 	@echo "... gtk_main_wnd.o"
 	@echo "... gtk_main_wnd.i"
 	@echo "... gtk_main_wnd.s"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.o"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.i"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.s"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/json.o"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/json.i"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/json.s"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.o"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.i"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.s"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.o"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.i"
+	@echo "... home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

@@ -4,11 +4,15 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qiao/MClient/src/conductor.cc" "/home/qiao/MClient/build/CMakeFiles/MClient.dir/conductor.cc.o"
-  "/home/qiao/MClient/src/defaults.cc" "/home/qiao/MClient/build/CMakeFiles/MClient.dir/defaults.cc.o"
-  "/home/qiao/MClient/src/gtk_main_wnd.cc" "/home/qiao/MClient/build/CMakeFiles/MClient.dir/gtk_main_wnd.cc.o"
-  "/home/qiao/MClient/src/main.cc" "/home/qiao/MClient/build/CMakeFiles/MClient.dir/main.cc.o"
-  "/home/qiao/MClient/src/peer_connection_client.cc" "/home/qiao/MClient/build/CMakeFiles/MClient.dir/peer_connection_client.cc.o"
+  "/home/qiao/Client/src/conductor.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/conductor.cc.o"
+  "/home/qiao/Client/src/defaults.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/defaults.cc.o"
+  "/home/qiao/Client/src/gtk_main_wnd.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/gtk_main_wnd.cc.o"
+  "/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/asyncsocket.cc.o"
+  "/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/json.cc.o"
+  "/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/messagehandler.cc.o"
+  "/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/home/qiao/libwebrtc/webrtc/src/webrtc/base/physicalsocketserver.cc.o"
+  "/home/qiao/Client/src/main.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/main.cc.o"
+  "/home/qiao/Client/src/peer_connection_client.cc" "/home/qiao/Client/build/CMakeFiles/MClient.dir/peer_connection_client.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -91,7 +95,7 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/qiao/VTK-build/ThirdParty/glew"
   "/home/qiao/VTK/ThirdParty/glew"
   "/usr/local/include"
-  "/home/qiao/MClient/src/../include"
+  "/home/qiao/Client/src/../include"
   "/home/qiao/libwebrtc/include/webrtc"
   "/home/qiao/libwebrtc/webrtc/src/third_party/jsoncpp/source/include"
   "/home/qiao/libwebrtc/webrtc/src/third_party/libyuv/include"

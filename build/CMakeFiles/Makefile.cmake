@@ -10,7 +10,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.10.20180129-g92cd3/CMakeCCompiler.cmake"
   "CMakeFiles/3.10.20180129-g92cd3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.10.20180129-g92cd3/CMakeSystem.cmake"
-  "/home/qiao/MClient/src/CMakeLists.txt"
+  "/home/qiao/Client/src/CMakeLists.txt"
   "/home/qiao/VTK-build/VTKConfig.cmake"
   "/home/qiao/VTK-build/VTKConfigVersion.cmake"
   "/home/qiao/VTK-build/VTKTargets.cmake"

@@ -1,4 +1,4 @@
-# Install script for directory: /home/qiao/MClient/src
+# Install script for directory: /home/qiao/Client/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/qiao/MClient/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/qiao/Client/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
